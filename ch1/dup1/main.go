@@ -1,11 +1,11 @@
-// Dup1 prints the text of each line that apprears more than 
+// Dup1 prints the text of each line that apprears more than
 // once in the standard input ,preceded by its count
 package main
 
 import (
+	"bufio"
 	"fmt"
 	"os"
-	"bufio"
 )
 
 func main() {
@@ -20,4 +20,5 @@ func main() {
 			fmt.Printf("%d\t %s\n", n, line)
 		}
 	}
+
 }
