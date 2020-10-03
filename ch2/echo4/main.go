@@ -1,3 +1,4 @@
+// echo4 prints its command-line arguments.
 package main
 
 import (
